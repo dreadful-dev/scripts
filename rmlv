@@ -1,0 +1,3 @@
+#!/bin/bash
+lvchange -an $1
+lvremove $1
